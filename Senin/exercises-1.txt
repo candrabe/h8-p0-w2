@@ -2,6 +2,12 @@
 1. Newton Second Law
 ============================================
 Algoritma:
+1. Simpan angka 600 kedalam 'm'
+2. Simpan angka 2 kedalam 'a'
+3. Buat variabel 'F'
+4. Hitung 'm' kali 'a'
+5. Simpan perhititungan kedalam 'F'
+6. Tampilkan isi 'F'
 
 Pseudocode:
 STORE 'm' with 600
@@ -17,6 +23,10 @@ DISPLAY 'F'
 2. Tahun Kabisat
 ============================================
 Algoritma:
+1. Buat variabel 'year' simpan dengan angka Tahun
+2. Jika tahun habis di bagi 4 dan tidak habis di bagi 100, tampilkan 'tahun kabisat', atau.
+3. Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400, tampilkan 'tahun kabisat'.
+4. Selai itu tampilkan 'bukan tahun kabisat'.
 
 Pseudocode:
 STORE 'year' with any value of year
@@ -33,6 +43,11 @@ END IF
 3. Laundry Day
 ============================================
 Algoritma:
+1. Simpan angka 20 ke dalam 'clothes'
+2. Simpan angka 0 ke dalam 'basket'
+3. Lakukan perulangan selama 'clothes' lebih kecil dari 'basket'
+4. tambah 'basket'  dengan angka 1
+5. tampilkan isi dari 'basket'
 
 Pseudocode:
 STORE 'clothes' with 20
@@ -47,6 +62,10 @@ END LOOP
 4. Periksa Kuku
 ============================================
 Algoritma:
+1. Simpan 'number of students' dengan angka 40
+2. Lakukan perulangan sebanyak 'number of students'
+3. Jika kuku siswa panjang hukum siswa
+4. Sebaliknya beri siswa pujian 
 
 Pseudocode:
 STORE 'number of students' with 40

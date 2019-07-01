@@ -1,0 +1,60 @@
+============================================
+1. Newton Second Law
+============================================
+Algoritma:
+
+Pseudocode:
+STORE 'm' with 600
+STORE 'a' with 2
+STORE 'F' without any value
+
+CALCULATE 'm' times 'a'
+SET 'F' value with calculate result
+
+DISPLAY 'F'
+
+============================================
+2. Tahun Kabisat
+============================================
+Algoritma:
+
+Pseudocode:
+STORE 'year' with any value of year
+
+IF ('year' MOD 4 equals to 0) AND ('year' MOD 100 not equals to 0)
+    DISPLAY 'leap year'
+ELSE IF ('year' MOD 4 equals to 0) AND ('year' MOD 4 equals to 100) AND ('year' MOD 400 equals to 0)
+    DISPLAY 'leap year'
+ELSE
+    DISPLAY 'not leap year'
+END IF
+
+============================================
+3. Laundry Day
+============================================
+Algoritma:
+
+Pseudocode:
+STORE 'clothes' with 20
+STORE 'basket' with 0
+
+LOOP 'basket' < 'clothes'
+    ADD 'basket' by 1
+    DISPLAY 'basket'
+END LOOP
+
+============================================
+4. Periksa Kuku
+============================================
+Algoritma:
+
+Pseudocode:
+STORE 'number of students' with 40
+
+LOOP 'number of students'
+    IF('long nail')
+        DO 'Punish'
+    ELSE
+        DO 'Praise'
+    END IF
+END LOOP

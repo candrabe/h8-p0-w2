@@ -7,13 +7,13 @@
 
 function balikKata(kata) {
     var panjang = kata.length;
-    var kata_terbalik = '';
+    var kataTerbalik = '';
 
     for(var i = panjang-1; i >= 0; i--){
-        kata_terbalik += kata[i];
+        kataTerbalik += kata[i];
     }
 
-    return kata_terbalik;
+    return kataTerbalik;
 }
 
 // TEST CASES

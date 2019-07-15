@@ -76,10 +76,10 @@ Algoritma:
 
 Pseudocode:
 STORE `number of students` with 40
-STORE `longNail` with 'long nail' or 'short nail'
+STORE `nail` with 'long nail' or 'short nail'
 
 LOOP `number of students`
-    IF(`longNail` equal to 'long nail')
+    IF(`nail` equal to 'long nail')
         DO `Punish`
     ELSE
         DO `Praise`

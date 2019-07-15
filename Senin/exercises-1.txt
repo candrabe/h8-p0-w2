@@ -2,85 +2,86 @@
 1. Newton Second Law
 ============================================
 Algoritma:
-1. Simpan angka 600 kedalam 'm'
-2. Simpan angka 2 kedalam 'a'
-3. Buat variabel 'F'
-4. Hitung 'm' kali 'a'
-5. Simpan perhititungan kedalam 'F'
-6. Tampilkan isi 'F'
+1. Simpan angka 600 kedalam `m`
+2. Simpan angka 2 kedalam `a`
+3. Buat variabel `F`
+4. Hitung `m` kali `a`
+5. Simpan perhititungan kedalam `F`
+6. Tampilkan isi `F`
 
 Pseudocode:
-STORE 'm' with 600
-STORE 'a' with 2
-STORE 'F' without any value
+STORE `m` with 600
+STORE `a` with 2
+STORE `F` without any value
 
-CALCULATE 'm' times 'a'
-SET 'F' value with calculate result
+CALCULATE `m` times `a`
+SET `F` value with calculate result
 
-DISPLAY 'F'
+DISPLAY `F`
 
 ============================================
 2. Tahun Kabisat
 ============================================
 Algoritma:
-1. Buat variabel 'year' simpan dengan angka Tahun
-2. Jika tahun habis di bagi 4 dan tidak habis di bagi 100, tampilkan 'tahun kabisat', atau.
-3. Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400, tampilkan 'tahun kabisat'.
-4. Selai itu tampilkan 'bukan tahun kabisat'.
+1. Buat variabel `year` simpan dengan angka Tahun
+2. Jika tahun habis di bagi 4 dan tidak habis di bagi 100, tampilkan `tahun kabisat`, atau.
+3. Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400, tampilkan `tahun kabisat`.
+4. Selai itu tampilkan `bukan tahun kabisat`.
 
 Pseudocode:
-STORE 'year' with any value of year
+STORE `year` with any value of year
 
-IF ('year' MOD 4 equals to 0) AND ('year' MOD 100 not equals to 0)
-    DISPLAY 'leap year'
-ELSE IF ('year' MOD 4 equals to 0) AND ('year' MOD 100 equals to 0) AND ('year' MOD 400 equals to 0)
-    DISPLAY 'leap year'
+IF (`year` MOD 4 equals to 0) AND (`year` MOD 100 not equals to 0)
+    DISPLAY `leap year`
+ELSE IF (`year` MOD 4 equals to 0) AND (`year` MOD 100 equals to 0) AND (`year` MOD 400 equals to 0)
+    DISPLAY `leap year`
 ELSE
-    DISPLAY 'not leap year'
+    DISPLAY `not leap year`
 END IF
 
 ============================================
 3. Laundry Day
 ============================================
 Algoritma:
-1. Simpan angka 20 ke dalam 'clothes'
-2. Simpan angka 0 ke dalam 'basket'
-3. Atur 'machine' dengan kondisi false
-4. Lakukan perulangan selama 'clothes' lebih kecil dari 'basket'
-5. tambah 'basket'  dengan angka 1
-6. tampilkan isi dari 'basket'
-7. Ubah kondisi 'machine' menjadi true
+1. Simpan angka 20 ke dalam `clothes`
+2. Simpan angka 0 ke dalam `basket`
+3. Atur `machine` dengan kondisi false
+4. Lakukan perulangan selama `clothes` lebih kecil dari `basket`
+5. tambah `basket`  dengan angka 1
+6. tampilkan isi dari `basket`
+7. Ubah kondisi `machine` menjadi true
 
 Pseudocode:
-STORE 'clothes' with 20
-STORE 'basket' with 0
-STORE 'machine' with false
+STORE `clothes` with 20
+STORE `basket` with 0
+STORE `machine` with false
 
-LOOP 'basket' less to 'clothes'
-    ADD 'basket' by 1
-    DISPLAY 'basket'
+LOOP `basket` less to `clothes`
+    ADD `basket` by 1
+    DISPLAY `basket`
 END LOOP
 
-IF 'basket' not equals to 0
-    SET 'machine' with true
+IF `basket` not equals to 0
+    SET `machine` with true
 END IF
 
 ============================================
 4. Periksa Kuku
 ============================================
 Algoritma:
-1. Simpan 'number of students' dengan angka 40
-2. Lakukan perulangan sebanyak 'number of students'
+1. Simpan `number of students` dengan angka 40
+2. Lakukan perulangan sebanyak `number of students`
 3. Jika kuku siswa panjang hukum siswa
 4. Sebaliknya beri siswa pujian 
 
 Pseudocode:
-STORE 'number of students' with 40
+STORE `number of students` with 40
+STORE `longNail` with 'long nail' or 'short nail'
 
-LOOP 'number of students'
-    IF('long nail')
-        DO 'Punish'
+LOOP `number of students`
+    IF(`longNail` equal to 'long nail')
+        DO `Punish`
     ELSE
-        DO 'Praise'
+        DO `Praise`
     END IF
 END LOOP
